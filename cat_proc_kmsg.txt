@@ -1,0 +1,11 @@
+F:\work\SeetafaceSo6>adb shell
+rk3568_r:/ # cat /proc/kmsg
+<14>[ 3508.576205] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+<14>[ 3509.577235] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+<14>[ 3511.581100] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+<14>[ 3512.583624] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+<14>[ 3513.595911] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+<14>[ 3514.585459] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+<14>[ 3517.591484] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+<14>[ 3518.592553] init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+rk3568_r:/ #

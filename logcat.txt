@@ -1,0 +1,778 @@
+    
+    --------- beginning of kernel
+2022-03-03 10:39:43.953 0-0/? I/chatty: uid=0(root) logd identical 55 lines
+2022-03-03 10:39:44.955 0-0/? I/init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+2022-03-03 10:39:45.055 0-0/? D/logd: logdr: UID=2000 GID=2000 PID=6316 b tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+2022-03-03 10:39:45.949 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:45.950 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:45.951 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:45.951 339-339/? W/adbd: timeout expired while flushing socket, closing
+2022-03-03 10:39:45.959 0-0/? I/init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+2022-03-03 10:39:46.168 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:39:46.169 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:39:46.952 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:46.953 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:46.954 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:47.955 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:47.955 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:47.956 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+    
+    --------- beginning of system
+2022-03-03 10:39:48.061 450-568/? I/ActivityTaskManager: START u0 {act=android.intent.action.GET_CONTENT typ=image/* cmp=com.android.documentsui/.picker.PickActivity} from uid 10129
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: start_output_stream:864 out = 0xe88c04c0,device = 0x2,outputs[OUTPUT_HDMI_MULTI] = 0x0
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: card0 id:rockchiphdmi
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: HDMI card, got card=0,device=0
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: card1 id:rockchiprk809co
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: SPEAKER card, got card=1,device=0
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: No exist proc/asound/card2/id, break and finish parsing
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: dump out device info
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: dev_info SPEAKER  card=1, device:0
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: dev_info HDMI  card=0, device:0
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: out->Device     : 0x2
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: out->SampleRate : 44100
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: out->Channels   : 2
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: out->Formate    : 0
+2022-03-03 10:39:48.063 253-5045/? D/AudioHardwareTiny: out->PreiodSize : 512
+2022-03-03 10:39:48.063 253-5045/? D/alsa_route: route_info->sound_card 0, route_info->devices 0  
+2022-03-03 10:39:48.064 253-5045/? D/alsa_route: route_set_controls() set route 0
+2022-03-03 10:39:48.064 450-791/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:48.067 450-791/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:48.074 253-5045/? D/AudioHardwareTiny: start_output_stream:965, out = 0xe88c04c0
+2022-03-03 10:39:48.086 450-568/? W/ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2387521)
+2022-03-03 10:39:48.167 5191-5191/com.android.documentsui D/Documents: shouldRestrictStorageAccessFramework = false, packageName = com.example.facedemo
+2022-03-03 10:39:48.167 5191-5191/com.android.documentsui D/PickActivity: Created new state object: State{action=5, acceptMimes=[image/*], allowMultiple=false, localOnly=false, stack=DocumentStack{root=null, docStack=[], stackTouched=false}, dirConfigs={}, excludedAuthorities=[], openableOnly=false, restrictScopeStorage=false, sortModel=SortModel{dimensions={16908304=SortDimension{id=16908304, labelId=2131755298, dataType=0, sortCapability=0, defaultSortDirection=1, sortDirection=0, visibility=4}, 16908310=SortDimension{id=16908310, labelId=2131755292, dataType=0, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}, 2131296384=SortDimension{id=2131296384, labelId=2131755285, dataType=1, sortCapability=3, defaultSortDirection=2, sortDirection=0, visibility=0}, 2131296433=SortDimension{id=2131296433, labelId=2131755289, dataType=0, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}, 2131296585=SortDimension{id=2131296585, labelId=2131755295, dataType=1, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}}, defaultDimensionId=0, sortedDimension=null}}
+2022-03-03 10:39:48.167 5191-5191/com.android.documentsui D/DrawerController: Calculated drawer width:320.0
+2022-03-03 10:39:48.191 5191-5191/com.android.documentsui D/PickerActionHandler: Load last accessed stack.
+2022-03-03 10:39:48.191 5191-5191/com.android.documentsui D/PickerActionHandler: Attempting to load last used stack for calling package.
+2022-03-03 10:39:48.193 5191-5191/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:48.211 5191-5191/com.android.documentsui D/DocumentStack: Resetting the whole darn stack to: DocumentStack{root=Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, docStack=[DocumentInfo{docId=primary:, userId=0, name=0, mimeType=vnd.android.document/directory, isContainer=true, isDirectory=true, isArchive=false, isInArchive=false, isPartial=false, isVirtual=false, isDeleteSupported=true, isCreateSupported=true, isMoveSupported=true, isRenameSupported=true, isMetadataSupported=true, isBlockedFromTree=true} @ content://com.android.externalstorage.documents/document/primary%3A, DocumentInfo{docId=primary:DCIM, userId=0, name=DCIM, mimeType=vnd.android.document/directory, isContainer=true, isDirectory=true, isArchive=false, isInArchive=false, isPartial=false, isVirtual=false, isDeleteSupported=true, isCreateSupported=true, isMoveSupported=true, isRenameSupported=true, isMetadataSupported=true, isBlockedFromTree=false} @ content://com.android.externalstorage.documents/document/primary%3ADCIM], stackTouched=true}
+2022-03-03 10:39:48.212 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:48.214 5191-5191/com.android.documentsui D/DirectoryFragment: Showing directory: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:48.214 5191-5191/com.android.documentsui D/DirectoryFragment: Creating new fragment for directory: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:48.230 5191-5191/com.android.documentsui W/SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+2022-03-03 10:39:48.232 5191-5191/com.android.documentsui D/AbstractActionHandler: Creating new directory loader for: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:48.236 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:48.240 5191-6326/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:46.962 0-0/? I/chatty: uid=0(root) logd identical 1 line
+2022-03-03 10:39:47.962 0-0/? I/init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+2022-03-03 10:39:48.260 0-0/? W/healthd: battery l=50 v=3 t=2.6 h=2 st=3 fc=100 chg=au
+2022-03-03 10:39:48.270 5191-5259/com.android.documentsui D/Documents: Before filtering 9, after 6
+2022-03-03 10:39:48.280 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f88770 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:48.280 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:48.280 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:48.282 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89070 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:48.282 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:48.282 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:48.286 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f88770 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:48.286 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:48.286 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:48.306 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:48.315 450-475/? I/ActivityTaskManager: Displayed com.android.documentsui/.picker.PickActivity: +242ms
+2022-03-03 10:39:48.316 301-379/? W/APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+2022-03-03 10:39:48.316 450-791/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:48.391 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:48.418 5191-6326/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:48.424 5191-5191/com.android.documentsui D/AbstractActionHandler: Loader has finished for: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:48.424 5191-5191/com.android.documentsui I/Model: Updating model with new result set.
+2022-03-03 10:39:48.425 5191-5191/com.android.documentsui D/DirectoryFragment: Received model update. Loading=false
+2022-03-03 10:39:48.489 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:48.531 181-197/? E/BufferQueueProducer: [com.example.facedemo/com.example.facedemo.MainActivity#0](id:b500000016,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:39:48.531 5102-5136/com.example.facedemo W/libEGL: EGLNativeWindowType 0xf1b579e8 disconnect failed
+2022-03-03 10:39:48.545 450-773/? V/ActivityTaskManager: getPackageFerformanceMode--ComponentInfo{com.android.documentsui/com.android.documentsui.picker.PickActivity}----com.android.documentsui
+2022-03-03 10:39:48.956 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:48.957 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:48.958 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:48.964 0-0/? I/init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+2022-03-03 10:39:49.172 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:39:49.172 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:39:49.709 5191-5191/com.android.documentsui D/PickerActionHandler: onFinished() [content://com.android.externalstorage.documents/document/primary%3ADCIM%2F20220124144831.jpg]
+2022-03-03 10:39:49.714 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89070 for buffer 'screenshot'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x333, consumer_usage : 0x333, internal_format : 0x0, stride : 800, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 4096000, layer_count : 1, backing_store_size : 4096000, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:49.714 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:49.714 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:49.801 5102-5102/com.example.facedemo I/loadimg: path=/storage/emulated/0/DCIM/20220124144831.jpg
+2022-03-03 10:39:49.801 5102-5102/com.example.facedemo V/getScaledBitmap: 1==
+2022-03-03 10:39:49.801 5102-5102/com.example.facedemo V/getScaledBitmap: path=/storage/emulated/0/DCIM/20220124144831.jpg, 期望：vMinWidth=400
+2022-03-03 10:39:49.805 5102-5102/com.example.facedemo V/getScaledBitmap: 原图大小：width:240,height:282,path=/storage/emulated/0/DCIM/20220124144831.jpg
+2022-03-03 10:39:49.820 5102-5102/com.example.facedemo V/getScaledBitmap: 处理后, size, width=240,height=282
+2022-03-03 10:39:49.820 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 1 
+2022-03-03 10:39:49.820 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 2
+2022-03-03 10:39:49.821 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 4通道转3通道 ok
+2022-03-03 10:39:49.821 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 灰度化ok
+2022-03-03 10:39:49.829 597-613/com.android.systemui I/ndroid.systemu: NativeAlloc concurrent copying GC freed 22364(837KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 6568KB/12MB, paused 98us total 100.647ms
+2022-03-03 10:39:49.927 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 检测耗时:107毫秒
+2022-03-03 10:39:49.927 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 人脸数:1
+2022-03-03 10:39:49.958 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:49.959 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:49.959 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:49.961 450-460/? I/system_server: NativeAlloc concurrent copying GC freed 143967(7571KB) AllocSpace objects, 54(1956KB) LOS objects, 49% free, 10160KB/19MB, paused 168us total 213.466ms
+2022-03-03 10:39:49.970 450-469/? I/DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+2022-03-03 10:39:50.019 5102-5102/com.example.facedemo I/libSeetafaceSo: 旋转角=-4.044605
+2022-03-03 10:39:50.019 5102-5102/com.example.facedemo I/libSeetafaceSo: 偏航角=-4.556214
+2022-03-03 10:39:50.019 5102-5102/com.example.facedemo I/libSeetafaceSo: 俯仰角=0.000000
+2022-03-03 10:39:50.927 5102-5102/com.example.facedemo I/libSeetafaceSo: 提取特征耗时:908毫秒
+2022-03-03 10:39:50.927 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 总耗时:1107毫秒
+2022-03-03 10:39:50.927 5102-5102/com.example.facedemo I/detectAndCompareFace: face_num=1
+2022-03-03 10:39:50.928 5102-5102/com.example.facedemo I/detectAndCompareFace: roll,pitch,yaw=-4.044605, 0.0,-4.5562143
+2022-03-03 10:39:50.928 5102-5102/com.example.facedemo I/detectAndCompareFace: seetaFaces0, pos:24, 250, 39, 265, 
+2022-03-03 10:39:50.929 5102-5102/com.example.facedemo I/loadimg: drawRect,i=0, 24,250,39,265
+2022-03-03 10:39:50.930 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity tFeat1 ok
+2022-03-03 10:39:50.930 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity tFeat2 ok
+2022-03-03 10:39:50.930 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity, tSim=0.2200, time=0
+2022-03-03 10:39:50.939 5102-5102/com.example.facedemo I/Choreographer: Skipped 70 frames!  The application may be doing too much work on its main thread.
+2022-03-03 10:39:50.959 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f88770 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:50.959 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:50.959 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:50.960 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:50.960 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:50.961 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:50.962 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89070 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:50.962 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:50.962 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:50.964 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f88770 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:50.964 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:50.964 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:50.977 5102-5136/com.example.facedemo I/OpenGLRenderer: Davey! duration=1209ms; Flags=1, IntendedVsync=3309837945103, Vsync=3311004611723, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3311010107789, AnimationStart=3311010111289, PerformTraversalsStart=3311010113331, DrawStart=3311030623916, SyncQueued=3311038792334, SyncStart=3311039168292, IssueDrawCommandsStart=3311042489209, SwapBuffers=3311046903585, FrameCompleted=3311048187210, DequeueBufferDuration=273292, QueueBufferDuration=410958, GpuCompleted=0, 
+2022-03-03 10:39:51.109 450-1134/? E/TaskPersister: File error accessing recents directory (directory doesn't exist?).
+2022-03-03 10:39:51.192 253-390/? D/AudioHardwareTiny: do_out_standby,out = 0xe88c04c0,device = 0x2
+2022-03-03 10:39:51.199 253-390/? D/alsa_route: route_set_controls() set route 24
+2022-03-03 10:39:51.210 253-390/? D/AudioHardwareTiny: close device
+2022-03-03 10:39:51.211 450-975/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:51.226 181-965/? E/BufferQueueProducer: [com.android.documentsui/com.android.documentsui.picker.PickActivity#0](id:b500000017,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:39:51.226 5191-5231/com.android.documentsui W/libEGL: EGLNativeWindowType 0xb4000077a77a3440 disconnect failed
+2022-03-03 10:39:51.961 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:51.962 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:51.963 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:52.174 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:39:52.174 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:39:52.964 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:52.965 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:52.968 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:53.319 450-773/? I/ActivityTaskManager: START u0 {act=android.intent.action.GET_CONTENT typ=image/* cmp=com.android.documentsui/.picker.PickActivity} from uid 10129
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: start_output_stream:864 out = 0xe88c04c0,device = 0x2,outputs[OUTPUT_HDMI_MULTI] = 0x0
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: card0 id:rockchiphdmi
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: HDMI card, got card=0,device=0
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: card1 id:rockchiprk809co
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: SPEAKER card, got card=1,device=0
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: No exist proc/asound/card2/id, break and finish parsing
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: dump out device info
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: dev_info SPEAKER  card=1, device:0
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: dev_info HDMI  card=0, device:0
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: out->Device     : 0x2
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: out->SampleRate : 44100
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: out->Channels   : 2
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: out->Formate    : 0
+2022-03-03 10:39:53.324 253-5045/? D/AudioHardwareTiny: out->PreiodSize : 512
+2022-03-03 10:39:53.324 450-975/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:53.324 253-5045/? D/alsa_route: route_info->sound_card 0, route_info->devices 0  
+2022-03-03 10:39:53.325 253-5045/? D/alsa_route: route_set_controls() set route 0
+2022-03-03 10:39:53.326 450-791/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:53.335 253-5045/? D/AudioHardwareTiny: start_output_stream:965, out = 0xe88c04c0
+2022-03-03 10:39:53.343 450-975/? W/ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (3308159)
+2022-03-03 10:39:53.411 5191-5191/com.android.documentsui D/Documents: shouldRestrictStorageAccessFramework = false, packageName = com.example.facedemo
+2022-03-03 10:39:53.411 5191-5191/com.android.documentsui D/PickActivity: Created new state object: State{action=5, acceptMimes=[image/*], allowMultiple=false, localOnly=false, stack=DocumentStack{root=null, docStack=[], stackTouched=false}, dirConfigs={}, excludedAuthorities=[], openableOnly=false, restrictScopeStorage=false, sortModel=SortModel{dimensions={16908304=SortDimension{id=16908304, labelId=2131755298, dataType=0, sortCapability=0, defaultSortDirection=1, sortDirection=0, visibility=4}, 16908310=SortDimension{id=16908310, labelId=2131755292, dataType=0, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}, 2131296384=SortDimension{id=2131296384, labelId=2131755285, dataType=1, sortCapability=3, defaultSortDirection=2, sortDirection=0, visibility=0}, 2131296433=SortDimension{id=2131296433, labelId=2131755289, dataType=0, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}, 2131296585=SortDimension{id=2131296585, labelId=2131755295, dataType=1, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}}, defaultDimensionId=0, sortedDimension=null}}
+2022-03-03 10:39:53.411 5191-5191/com.android.documentsui D/DrawerController: Calculated drawer width:320.0
+2022-03-03 10:39:53.430 5191-5191/com.android.documentsui D/PickerActionHandler: Load last accessed stack.
+2022-03-03 10:39:53.430 5191-5191/com.android.documentsui D/PickerActionHandler: Attempting to load last used stack for calling package.
+2022-03-03 10:39:53.432 5191-5191/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:53.448 5191-5191/com.android.documentsui D/DocumentStack: Resetting the whole darn stack to: DocumentStack{root=Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, docStack=[DocumentInfo{docId=primary:, userId=0, name=0, mimeType=vnd.android.document/directory, isContainer=true, isDirectory=true, isArchive=false, isInArchive=false, isPartial=false, isVirtual=false, isDeleteSupported=true, isCreateSupported=true, isMoveSupported=true, isRenameSupported=true, isMetadataSupported=true, isBlockedFromTree=true} @ content://com.android.externalstorage.documents/document/primary%3A, DocumentInfo{docId=primary:DCIM, userId=0, name=DCIM, mimeType=vnd.android.document/directory, isContainer=true, isDirectory=true, isArchive=false, isInArchive=false, isPartial=false, isVirtual=false, isDeleteSupported=true, isCreateSupported=true, isMoveSupported=true, isRenameSupported=true, isMetadataSupported=true, isBlockedFromTree=false} @ content://com.android.externalstorage.documents/document/primary%3ADCIM], stackTouched=true}
+2022-03-03 10:39:53.449 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:53.456 5191-5191/com.android.documentsui D/DirectoryFragment: Showing directory: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:53.456 5191-5191/com.android.documentsui D/DirectoryFragment: Creating new fragment for directory: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:53.465 5191-5191/com.android.documentsui W/SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+2022-03-03 10:39:53.466 5191-5191/com.android.documentsui D/AbstractActionHandler: Creating new directory loader for: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:53.470 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:53.474 5191-6335/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:53.512 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89070 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:53.512 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:53.512 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:53.514 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f88770 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:53.514 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:53.514 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:53.516 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:53.516 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:53.516 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:53.523 5191-5259/com.android.documentsui D/Documents: Before filtering 9, after 6
+2022-03-03 10:39:53.532 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:53.549 450-475/? I/ActivityTaskManager: Displayed com.android.documentsui/.picker.PickActivity: +215ms
+2022-03-03 10:39:53.579 301-379/? W/APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+2022-03-03 10:39:53.581 450-568/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:53.611 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:53.632 5191-6335/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:53.633 5191-5191/com.android.documentsui D/AbstractActionHandler: Loader has finished for: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:53.634 5191-5191/com.android.documentsui I/Model: Updating model with new result set.
+2022-03-03 10:39:53.634 5191-5191/com.android.documentsui D/DirectoryFragment: Received model update. Loading=false
+2022-03-03 10:39:53.698 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:53.741 450-975/? V/ActivityTaskManager: getPackageFerformanceMode--ComponentInfo{com.android.documentsui/com.android.documentsui.picker.PickActivity}----com.android.documentsui
+2022-03-03 10:39:53.778 181-196/? E/BufferQueueProducer: [com.example.facedemo/com.example.facedemo.MainActivity#0](id:b500000018,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:39:53.779 5102-5136/com.example.facedemo W/libEGL: EGLNativeWindowType 0xf1b51528 disconnect failed
+2022-03-03 10:39:53.968 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:53.969 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:53.971 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:54.725 5191-5191/com.android.documentsui D/PickerActionHandler: onFinished() [content://com.android.externalstorage.documents/document/primary%3ADCIM%2FIMG_20220228_172334.jpg]
+2022-03-03 10:39:54.730 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'screenshot'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x333, consumer_usage : 0x333, internal_format : 0x0, stride : 800, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 4096000, layer_count : 1, backing_store_size : 4096000, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:54.730 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:54.730 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:54.839 450-1134/? E/TaskPersister: File error accessing recents directory (directory doesn't exist?).
+2022-03-03 10:39:54.971 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:54.971 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:54.972 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:55.100 5102-5102/com.example.facedemo I/loadimg: path=/storage/emulated/0/DCIM/IMG_20220228_172334.jpg
+2022-03-03 10:39:55.100 5102-5102/com.example.facedemo V/getScaledBitmap: 1==
+2022-03-03 10:39:55.100 5102-5102/com.example.facedemo V/getScaledBitmap: path=/storage/emulated/0/DCIM/IMG_20220228_172334.jpg, 期望：vMinWidth=400
+2022-03-03 10:39:55.104 5102-5102/com.example.facedemo V/getScaledBitmap: 原图大小：width:4224,height:5632,path=/storage/emulated/0/DCIM/IMG_20220228_172334.jpg
+2022-03-03 10:39:55.175 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:39:55.175 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:39:55.500 5102-5102/com.example.facedemo V/getScaledBitmap: 处理后, size, width=400,height=534
+2022-03-03 10:39:55.500 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 1 
+2022-03-03 10:39:55.502 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 2
+2022-03-03 10:39:55.502 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 4通道转3通道 ok
+2022-03-03 10:39:55.504 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 灰度化ok
+2022-03-03 10:39:55.743 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 检测耗时:243毫秒
+2022-03-03 10:39:55.743 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 人脸数:1
+2022-03-03 10:39:55.833 5102-5102/com.example.facedemo I/libSeetafaceSo: 旋转角=-0.000000
+2022-03-03 10:39:55.833 5102-5102/com.example.facedemo I/libSeetafaceSo: 偏航角=12.696890
+2022-03-03 10:39:55.833 5102-5102/com.example.facedemo I/libSeetafaceSo: 俯仰角=-11.927190
+2022-03-03 10:39:55.972 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:55.973 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:55.973 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:56.108 450-519/? I/InputDispatcher: Dropping event because there is no touchable window or gesture monitor at (493, 319) in display 0.
+2022-03-03 10:39:56.118 450-519/? I/InputDispatcher: Dropping event because there is no touched foreground window in display 0 or gesture monitor to receive it.
+2022-03-03 10:39:56.202 450-519/? I/chatty: uid=1000(system) InputDispatcher identical 8 lines
+2022-03-03 10:39:56.213 450-519/? I/InputDispatcher: Dropping event because there is no touched foreground window in display 0 or gesture monitor to receive it.
+2022-03-03 10:39:56.449 253-390/? D/AudioHardwareTiny: do_out_standby,out = 0xe88c04c0,device = 0x2
+2022-03-03 10:39:56.455 253-390/? D/alsa_route: route_set_controls() set route 24
+2022-03-03 10:39:56.464 253-390/? D/AudioHardwareTiny: close device
+2022-03-03 10:39:56.466 450-568/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:56.635 450-519/? I/InputDispatcher: Dropping event because there is no touchable window or gesture monitor at (501, 283) in display 0.
+2022-03-03 10:39:56.645 450-519/? I/InputDispatcher: Dropping event because there is no touched foreground window in display 0 or gesture monitor to receive it.
+2022-03-03 10:39:56.729 450-519/? I/chatty: uid=1000(system) InputDispatcher identical 8 lines
+2022-03-03 10:39:56.739 450-519/? I/InputDispatcher: Dropping event because there is no touched foreground window in display 0 or gesture monitor to receive it.
+2022-03-03 10:39:56.747 5102-5102/com.example.facedemo I/libSeetafaceSo: 提取特征耗时:914毫秒
+2022-03-03 10:39:56.747 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 总耗时:1247毫秒
+2022-03-03 10:39:56.747 5102-5102/com.example.facedemo I/detectAndCompareFace: face_num=1
+2022-03-03 10:39:56.747 5102-5102/com.example.facedemo I/detectAndCompareFace: roll,pitch,yaw=-0.0, -11.92719,12.69689
+2022-03-03 10:39:56.747 5102-5102/com.example.facedemo I/detectAndCompareFace: seetaFaces0, pos:133, 274, 153, 294, 
+2022-03-03 10:39:56.749 5102-5102/com.example.facedemo I/loadimg: drawRect,i=0, 133,274,153,294
+2022-03-03 10:39:56.750 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity tFeat1 ok
+2022-03-03 10:39:56.750 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity tFeat2 ok
+2022-03-03 10:39:56.750 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity, tSim=0.2200, time=0
+2022-03-03 10:39:56.755 5102-5102/com.example.facedemo I/Choreographer: Skipped 118 frames!  The application may be doing too much work on its main thread.
+2022-03-03 10:39:56.775 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:56.775 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:56.775 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:56.777 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:56.777 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:56.777 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:56.779 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89070 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:56.779 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:56.779 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:56.790 5102-5136/com.example.facedemo I/OpenGLRenderer: Davey! duration=2004ms; Flags=1, IntendedVsync=3314855909274, Vsync=3316822575862, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3316826265332, AnimationStart=3316826268540, PerformTraversalsStart=3316826270874, DrawStart=3316845471584, SyncQueued=3316852279668, SyncStart=3316852602543, IssueDrawCommandsStart=3316855750210, SwapBuffers=3316859564919, FrameCompleted=3316860765419, DequeueBufferDuration=233626, QueueBufferDuration=407459, GpuCompleted=0, 
+2022-03-03 10:39:56.973 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:56.974 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:56.974 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:57.025 181-965/? E/BufferQueueProducer: [com.android.documentsui/com.android.documentsui.picker.PickActivity#0](id:b500000019,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:39:57.025 5191-5231/com.android.documentsui W/libEGL: EGLNativeWindowType 0xb4000077a77a3440 disconnect failed
+2022-03-03 10:39:57.975 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:57.976 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:57.979 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:58.180 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:39:58.180 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:39:58.514 450-791/? I/ActivityTaskManager: START u0 {act=android.intent.action.GET_CONTENT typ=image/* cmp=com.android.documentsui/.picker.PickActivity} from uid 10129
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: start_output_stream:864 out = 0xe88c04c0,device = 0x2,outputs[OUTPUT_HDMI_MULTI] = 0x0
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: card0 id:rockchiphdmi
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: HDMI card, got card=0,device=0
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: card1 id:rockchiprk809co
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: SPEAKER card, got card=1,device=0
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: No exist proc/asound/card2/id, break and finish parsing
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: dump out device info
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: dev_info SPEAKER  card=1, device:0
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: dev_info HDMI  card=0, device:0
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: out->Device     : 0x2
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: out->SampleRate : 44100
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: out->Channels   : 2
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: out->Formate    : 0
+2022-03-03 10:39:58.515 253-5045/? D/AudioHardwareTiny: out->PreiodSize : 512
+2022-03-03 10:39:58.515 253-5045/? D/alsa_route: route_info->sound_card 0, route_info->devices 0  
+2022-03-03 10:39:58.515 253-5045/? D/alsa_route: route_set_controls() set route 0
+2022-03-03 10:39:58.517 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:58.518 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:58.526 253-5045/? D/AudioHardwareTiny: start_output_stream:965, out = 0xe88c04c0
+2022-03-03 10:39:58.539 450-791/? W/ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (3313417)
+2022-03-03 10:39:58.604 5191-5191/com.android.documentsui D/Documents: shouldRestrictStorageAccessFramework = false, packageName = com.example.facedemo
+2022-03-03 10:39:58.605 5191-5191/com.android.documentsui D/PickActivity: Created new state object: State{action=5, acceptMimes=[image/*], allowMultiple=false, localOnly=false, stack=DocumentStack{root=null, docStack=[], stackTouched=false}, dirConfigs={}, excludedAuthorities=[], openableOnly=false, restrictScopeStorage=false, sortModel=SortModel{dimensions={16908304=SortDimension{id=16908304, labelId=2131755298, dataType=0, sortCapability=0, defaultSortDirection=1, sortDirection=0, visibility=4}, 16908310=SortDimension{id=16908310, labelId=2131755292, dataType=0, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}, 2131296384=SortDimension{id=2131296384, labelId=2131755285, dataType=1, sortCapability=3, defaultSortDirection=2, sortDirection=0, visibility=0}, 2131296433=SortDimension{id=2131296433, labelId=2131755289, dataType=0, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}, 2131296585=SortDimension{id=2131296585, labelId=2131755295, dataType=1, sortCapability=3, defaultSortDirection=1, sortDirection=0, visibility=0}}, defaultDimensionId=0, sortedDimension=null}}
+2022-03-03 10:39:58.605 5191-5191/com.android.documentsui D/DrawerController: Calculated drawer width:320.0
+2022-03-03 10:39:58.620 5191-5191/com.android.documentsui D/PickerActionHandler: Load last accessed stack.
+2022-03-03 10:39:58.621 5191-5191/com.android.documentsui D/PickerActionHandler: Attempting to load last used stack for calling package.
+2022-03-03 10:39:58.624 5191-5191/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:58.641 5191-5191/com.android.documentsui D/DocumentStack: Resetting the whole darn stack to: DocumentStack{root=Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, docStack=[DocumentInfo{docId=primary:, userId=0, name=0, mimeType=vnd.android.document/directory, isContainer=true, isDirectory=true, isArchive=false, isInArchive=false, isPartial=false, isVirtual=false, isDeleteSupported=true, isCreateSupported=true, isMoveSupported=true, isRenameSupported=true, isMetadataSupported=true, isBlockedFromTree=true} @ content://com.android.externalstorage.documents/document/primary%3A, DocumentInfo{docId=primary:DCIM, userId=0, name=DCIM, mimeType=vnd.android.document/directory, isContainer=true, isDirectory=true, isArchive=false, isInArchive=false, isPartial=false, isVirtual=false, isDeleteSupported=true, isCreateSupported=true, isMoveSupported=true, isRenameSupported=true, isMetadataSupported=true, isBlockedFromTree=false} @ content://com.android.externalstorage.documents/document/primary%3ADCIM], stackTouched=true}
+2022-03-03 10:39:58.642 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:58.645 5191-5191/com.android.documentsui D/DirectoryFragment: Showing directory: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:58.645 5191-5191/com.android.documentsui D/DirectoryFragment: Creating new fragment for directory: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:58.653 5191-5191/com.android.documentsui W/SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+2022-03-03 10:39:58.654 5191-5191/com.android.documentsui D/AbstractActionHandler: Creating new directory loader for: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:58.657 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:58.661 5191-6343/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:58.670 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:58.686 5191-5259/com.android.documentsui D/Documents: Before filtering 9, after 6
+2022-03-03 10:39:58.696 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f88770 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:58.697 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:58.697 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:58.698 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89070 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:58.698 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:58.698 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:58.700 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f88770 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:39:58.700 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:39:58.700 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:39:58.758 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:58.761 450-475/? I/ActivityTaskManager: Displayed com.android.documentsui/.picker.PickActivity: +237ms
+2022-03-03 10:39:58.782 5191-5191/com.android.documentsui D/AbstractActionHandler: Loader has finished for: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:39:58.782 5191-5191/com.android.documentsui I/Model: Updating model with new result set.
+2022-03-03 10:39:58.783 5191-5191/com.android.documentsui D/DirectoryFragment: Received model update. Loading=false
+2022-03-03 10:39:58.783 301-379/? W/APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+2022-03-03 10:39:58.784 5191-6343/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:39:58.784 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:39:58.852 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:39:58.911 450-568/? V/ActivityTaskManager: getPackageFerformanceMode--ComponentInfo{com.android.documentsui/com.android.documentsui.picker.PickActivity}----com.android.documentsui
+2022-03-03 10:39:58.961 181-446/? E/BufferQueueProducer: [com.example.facedemo/com.example.facedemo.MainActivity#0](id:b50000001a,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:39:58.961 5102-5136/com.example.facedemo W/libEGL: EGLNativeWindowType 0xf1b47e08 disconnect failed
+2022-03-03 10:39:58.979 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:58.979 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:58.980 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:39:59.891 5191-5191/com.android.documentsui D/QuickViewIntentBuilder: Preparing intent for doc:primary:DCIM/IMG_20220228_172325.jpg
+2022-03-03 10:39:59.894 450-773/? I/ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=content://com.android.externalstorage.documents/document/primary:DCIM/IMG_20220228_172325.jpg typ=image/jpeg flg=0x20000003 cmp=com.android.gallery3d/.app.GalleryActivity} from uid 10067
+2022-03-03 10:39:59.980 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:39:59.980 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:39:59.981 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:00.003 597-597/com.android.systemui D/KeyguardClockSwitch: Updating clock: 上午10:40
+2022-03-03 10:40:00.007 4964-4964/? I/droid.gallery3d: type=1400 audit(0.0:340): avc: denied { open } for path="/dev/__properties__/u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=3018 scontext=u:r:untrusted_app_29:s0:c105,c256,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=1 app=com.android.gallery3d
+2022-03-03 10:40:00.035 4964-4964/? V/StateManager: startState class com.android.gallery3d.app.SinglePhotoPage
+2022-03-03 10:40:00.053 4964-4964/? D/TileImageView: TileImageView sTileSize=512
+2022-03-03 10:40:00.080 4964-4964/? V/NFC: this device does not have NFC support
+2022-03-03 10:40:00.121 277-319/? I/SensorsHal: set batch: handle = 0, period_ns = 200000000ns, timeout = 0ns
+2022-03-03 10:40:00.121 277-319/? D/SensorsHal: Couldn't open /dev/mma8452_daemon (No such file or directory)
+2022-03-03 10:40:00.121 277-319/? I/SensorsHal: MmaSensor update delay: 200ms
+2022-03-03 10:40:00.121 277-319/? E/SensorsHal: fail to perform GSENSOR_IOCTL_APP_SET_RATE, result = -1, error is 'Bad file descriptor'
+2022-03-03 10:40:00.121 450-773/? E/SensorService: sensor batch failed 0xb400007647876cd0 0x00000000 200000000 0 err=Operation not permitted
+2022-03-03 10:40:00.155 4964-6345/? I/mali_so: [File] : hardware/rockchip/mali_so/driver/product/base/src/mali_base_kbase.c; [Line] : 1311; [Func] : base_context_deal_with_version_affairs_rk_ext;
+    arm_release_ver of this mali_so is 'g2p0-01eac0', rk_so_ver is '8@0 '.
+2022-03-03 10:40:00.155 4964-6345/? I/mali_so: [File] : hardware/rockchip/mali_so/driver/product/base/src/mali_base_kbase.c; [Line] : 1327; [Func] : base_context_deal_with_version_affairs_rk_ext;
+    arm_release_vers are match. to set the full mali_ver 'g2p0-01eac0-x-8@0' as value of 'sys.gmali.version'.
+2022-03-03 10:40:00.158 181-196/? W/ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10105 pid=4964
+2022-03-03 10:40:00.158 181-196/? D/PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10105 => denied (745 us)
+2022-03-03 10:40:00.153 4964-4964/? I/RenderThread: type=1400 audit(0.0:343): avc: denied { write } for name="property_service" dev="tmpfs" ino=969 scontext=u:r:untrusted_app_29:s0:c105,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.android.gallery3d
+2022-03-03 10:40:00.163 4964-4964/? D/GLSurfaceView: surface set framrate 30
+2022-03-03 10:40:00.183 156-156/? I/hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+2022-03-03 10:40:00.234 4964-6349/? I/GLRootView: onSurfaceChanged: 800x1208, gl10: com.google.android.gles_jni.GLImpl@aa237c6
+2022-03-03 10:40:00.234 4964-6349/? I/GLRootView: layout content pane 800x1208 (compensation 0)
+2022-03-03 10:40:00.235 4964-6349/? D/PhotoView: compensation = 0, CameraRelativeFrame = Rect(0, 0 - 0, 0), mCameraRect = Rect(0, 0 - 0, 0)
+2022-03-03 10:40:00.236 223-967/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89070 for buffer 'com.android.gallery3d/com.android.gallery3d.app.GalleryActivity#0'. share_fd : 8, share_attr_fd : 10, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:00.236 223-967/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:00.236 223-967/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:00.236 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'SurfaceView - com.android.gallery3d/com.android.gallery3d.app.GalleryActivity#0'. share_fd : 9, share_attr_fd : 11, flags : 0x4, width : 800, height : 1208, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 3952640, layer_count : 1, backing_store_size : 3952640, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:00.237 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1216
+2022-03-03 10:40:00.237 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:00.294 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'SurfaceView - com.android.gallery3d/com.android.gallery3d.app.GalleryActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1208, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 3952640, layer_count : 1, backing_store_size : 3952640, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:00.295 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1216
+2022-03-03 10:40:00.295 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:00.315 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'SurfaceView - com.android.gallery3d/com.android.gallery3d.app.GalleryActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1208, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 3952640, layer_count : 1, backing_store_size : 3952640, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:00.315 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1216
+2022-03-03 10:40:00.315 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:00.325 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'com.android.gallery3d/com.android.gallery3d.app.GalleryActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:00.325 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:00.325 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:00.343 450-475/? I/ActivityTaskManager: Displayed com.android.gallery3d/.app.GalleryActivity: +436ms
+2022-03-03 10:40:00.354 450-568/? V/ActivityTaskManager: getPackageFerformanceMode--ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}----com.android.gallery3d
+2022-03-03 10:40:00.561 181-922/? E/BufferQueueProducer: [com.android.documentsui/com.android.documentsui.picker.PickActivity#0](id:b50000001b,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:40:00.562 5191-5231/com.android.documentsui W/libEGL: EGLNativeWindowType 0xb4000077a77a3440 disconnect failed
+2022-03-03 10:40:00.633 450-1134/? E/TaskPersister: File error accessing recents directory (directory doesn't exist?).
+2022-03-03 10:40:00.981 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:00.982 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:00.983 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:01.185 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:01.186 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:01.663 253-390/? D/AudioHardwareTiny: do_out_standby,out = 0xe88c04c0,device = 0x2
+2022-03-03 10:40:01.672 253-390/? D/alsa_route: route_set_controls() set route 24
+2022-03-03 10:40:01.683 253-390/? D/AudioHardwareTiny: close device
+2022-03-03 10:40:01.686 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:40:01.983 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:01.984 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:01.985 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: start_output_stream:864 out = 0xe88c04c0,device = 0x2,outputs[OUTPUT_HDMI_MULTI] = 0x0
+2022-03-03 10:40:02.656 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: card0 id:rockchiphdmi
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: HDMI card, got card=0,device=0
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: card1 id:rockchiprk809co
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: SPEAKER card, got card=1,device=0
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: No exist proc/asound/card2/id, break and finish parsing
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: dump out device info
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: dev_info SPEAKER  card=1, device:0
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: dev_info HDMI  card=0, device:0
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: out->Device     : 0x2
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: out->SampleRate : 44100
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: out->Channels   : 2
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: out->Formate    : 0
+2022-03-03 10:40:02.656 253-5045/? D/AudioHardwareTiny: out->PreiodSize : 512
+2022-03-03 10:40:02.656 253-5045/? D/alsa_route: route_info->sound_card 0, route_info->devices 0  
+2022-03-03 10:40:02.657 253-5045/? D/alsa_route: route_set_controls() set route 0
+2022-03-03 10:40:02.657 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:40:02.666 253-5045/? D/AudioHardwareTiny: start_output_stream:965, out = 0xe88c04c0
+2022-03-03 10:40:02.780 4964-4964/? D/PhotoPage: =========================================KeyCode=25
+2022-03-03 10:40:02.782 450-791/? D/MediaSessionService: dispatchVolumeKeyEvent, pkg=com.android.gallery3d, opPkg=com.android.gallery3d, pid=4964, uid=10105, asSystem=true, event=KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x48, repeatCount=0, eventTime=3322682, downTime=3322682, deviceId=-1, source=0x101, displayId=0 }, stream=-2147483648, musicOnly=false
+2022-03-03 10:40:02.782 450-791/? D/MediaSessionService: Adjusting suggestedStream=-2147483648 by -1. flags=4113, preferSuggestedStream=false, session=null
+2022-03-03 10:40:02.784 450-519/? D/InputDispatcher: Waiting to send key to Window{6d94c99 u0 com.android.gallery3d/com.android.gallery3d.app.GalleryActivity} because there are unprocessed events that may cause focus to change
+2022-03-03 10:40:02.787 450-791/? D/MediaSessionService: dispatchVolumeKeyEvent, pkg=com.android.gallery3d, opPkg=com.android.gallery3d, pid=4964, uid=10105, asSystem=true, event=KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x48, repeatCount=0, eventTime=3322850, downTime=3322682, deviceId=-1, source=0x101, displayId=0 }, stream=-2147483648, musicOnly=false
+2022-03-03 10:40:02.787 450-791/? D/MediaSessionService: Adjusting suggestedStream=-2147483648 by 0. flags=4116, preferSuggestedStream=false, session=null
+2022-03-03 10:40:02.798 597-995/com.android.systemui I/vol.Events: writeEvent active_stream_changed STREAM_MUSIC
+2022-03-03 10:40:02.803 597-995/com.android.systemui I/vol.Events: writeEvent key STREAM_MUSIC 6
+2022-03-03 10:40:02.845 597-597/com.android.systemui I/vol.Events: writeEvent show_dialog volume_changed keyguard=false
+2022-03-03 10:40:02.867 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 408, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 156672, layer_count : 1, backing_store_size : 156672, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.867 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 408
+2022-03-03 10:40:02.867 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.867 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 408, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 156672, layer_count : 1, backing_store_size : 156672, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.867 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 408
+2022-03-03 10:40:02.867 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.869 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 408, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 156672, layer_count : 1, backing_store_size : 156672, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.869 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 408
+2022-03-03 10:40:02.869 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.884 450-471/? E/system_server: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:40:02.898 181-965/? E/BufferQueueProducer: [VolumeDialogImpl#0](id:b50000001e,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:40:02.898 597-1042/com.android.systemui W/libEGL: EGLNativeWindowType 0xb4000077a79d98e0 disconnect failed
+2022-03-03 10:40:02.901 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 340, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 130560, layer_count : 1, backing_store_size : 130560, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.901 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 340
+2022-03-03 10:40:02.901 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.907 301-379/? W/APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+2022-03-03 10:40:02.908 450-791/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:40:02.914 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 340, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 130560, layer_count : 1, backing_store_size : 130560, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.914 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 340
+2022-03-03 10:40:02.914 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.926 181-922/? E/BufferQueueProducer: [VolumeDialogImpl#0](id:b50000001e,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:40:02.926 597-1042/com.android.systemui W/libEGL: EGLNativeWindowType 0xb4000077a79d98e0 disconnect failed
+2022-03-03 10:40:02.931 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 340, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 130560, layer_count : 1, backing_store_size : 130560, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.931 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 340
+2022-03-03 10:40:02.931 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.939 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 340, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 130560, layer_count : 1, backing_store_size : 130560, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.939 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 340
+2022-03-03 10:40:02.939 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.956 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'VolumeDialogImpl#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 88, height : 340, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 130560, layer_count : 1, backing_store_size : 130560, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:02.956 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 384, alloc_width : 88, alloc_height : 340
+2022-03-03 10:40:02.956 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:02.986 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:02.986 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:02.987 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:03.846 597-597/com.android.systemui I/KeyButtonView: Back button event: ACTION_DOWN
+2022-03-03 10:40:03.848 450-519/? D/InputDispatcher: Waiting to send key to Window{6d94c99 u0 com.android.gallery3d/com.android.gallery3d.app.GalleryActivity} because there are unprocessed events that may cause focus to change
+2022-03-03 10:40:03.853 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'screenshot'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x333, consumer_usage : 0x333, internal_format : 0x0, stride : 800, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 4096000, layer_count : 1, backing_store_size : 4096000, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:03.853 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:03.853 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:03.859 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:40:03.872 4964-4964/? V/StateManager: no more state, finish activity
+2022-03-03 10:40:03.872 4964-4964/? V/StateManager: finishState com.android.gallery3d.app.SinglePhotoPage@c4f4c81
+2022-03-03 10:40:03.874 4964-4964/? I/GifTextrueFactory: freezeAllGif
+2022-03-03 10:40:03.878 181-965/? E/BufferQueueProducer: [SurfaceView - com.android.gallery3d/com.android.gallery3d.app.GalleryActivity#0](id:b50000001d,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:40:03.878 4964-6349/? W/libEGL: EGLNativeWindowType 0x77a77c5540 disconnect failed
+2022-03-03 10:40:03.911 4964-4964/? W/ViewRootImpl[GalleryActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=3323975, downTime=3323914, deviceId=-1, source=0x101, displayId=0 }
+2022-03-03 10:40:03.915 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:40:03.919 5191-5191/com.android.documentsui D/AbstractActionHandler: Loader has finished for: content://com.android.externalstorage.documents/document/primary%3ADCIM
+2022-03-03 10:40:03.919 5191-5191/com.android.documentsui I/Model: Updating model with new result set.
+2022-03-03 10:40:03.919 5191-5191/com.android.documentsui D/DirectoryFragment: Received model update. Loading=false
+2022-03-03 10:40:03.928 5191-6369/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:40:03.987 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:03.988 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:03.988 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:03.997 5102-5118/com.example.facedemo W/System: A resource failed to call close. 
+2022-03-03 10:40:04.013 5102-5118/com.example.facedemo I/chatty: uid=10129(com.example.facedemo) FinalizerDaemon identical 6 lines
+2022-03-03 10:40:04.014 5102-5118/com.example.facedemo W/System: A resource failed to call close. 
+2022-03-03 10:40:04.019 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:40:04.029 597-613/com.android.systemui I/ndroid.systemu: NativeAlloc concurrent copying GC freed 13077(556KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 6670KB/13MB, paused 102us total 153.715ms
+2022-03-03 10:40:04.041 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:04.042 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:04.042 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:04.045 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:04.045 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:04.045 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:04.050 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'com.android.documentsui/com.android.documentsui.picker.PickActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:04.050 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:04.050 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:04.083 5191-6369/com.android.documentsui D/ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=最近, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=rk3568_r, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=下载, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=图片, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root]
+2022-03-03 10:40:04.091 301-379/? W/APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+2022-03-03 10:40:04.092 450-786/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:40:04.093 597-597/com.android.systemui I/KeyButtonView: Back button event: ACTION_UP
+2022-03-03 10:40:04.096 5191-5191/com.android.documentsui E/oid.documentsu: No package ID ff found for ID 0xffffffff.
+2022-03-03 10:40:04.096 450-519/? W/InputDispatcher: Waiting because no window has focus but ActivityRecord{28f4f95 u0 com.android.documentsui/.picker.PickActivity t57} may eventually add a window when it finishes starting up. Will wait for 5000ms
+2022-03-03 10:40:04.096 450-519/? W/InputDispatcher: Still no focused window. Will drop the event in 4999ms
+2022-03-03 10:40:03.912 4964-4964/? I/chatty: uid=10105(com.android.gallery3d) identical 4 lines
+2022-03-03 10:40:03.912 4964-4964/? W/ViewRootImpl[GalleryActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=3323975, downTime=3323914, deviceId=-1, source=0x101, displayId=0 }
+2022-03-03 10:40:04.099 450-468/? D/AutofillManagerService: onBackKeyPressed()
+2022-03-03 10:40:04.099 450-468/? D/AutofillManagerServiceImpl: Reset component for user 0:
+2022-03-03 10:40:04.100 450-468/? D/AutofillUI: destroySaveUiUiThread(): already destroyed
+2022-03-03 10:40:04.096 450-519/? W/InputDispatcher: Still no focused window. Will drop the event in 4999ms
+2022-03-03 10:40:04.108 450-519/? W/InputDispatcher: Still no focused window. Will drop the event in 4987ms
+2022-03-03 10:40:04.108 450-519/? W/InputDispatcher: Still no focused window. Will drop the event in 4987ms
+2022-03-03 10:40:04.108 450-519/? D/InputDispatcher: Waiting to send key to Window{3203fe4 u0 com.android.documentsui/com.android.documentsui.picker.PickActivity} because there are unprocessed events that may cause focus to change
+2022-03-03 10:40:04.187 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:04.188 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:04.327 181-446/? E/BufferQueueProducer: [com.android.gallery3d/com.android.gallery3d.app.GalleryActivity#0](id:b50000001c,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:40:04.327 4964-6345/? W/libEGL: EGLNativeWindowType 0x77a77b44c0 disconnect failed
+2022-03-03 10:40:04.336 4964-4964/? V/StateManager: destroy
+2022-03-03 10:40:04.338 450-476/? W/BroadcastQueue: Background execution not allowed: receiving Intent { act=widget_update flg=0x10 } to com.android.gallery3d/.gadget.PhotoAppWidgetProvider
+2022-03-03 10:40:04.984 597-597/com.android.systemui I/vol.Events: writeEvent dismiss_dialog touch_outside
+2022-03-03 10:40:04.986 597-995/com.android.systemui I/vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+2022-03-03 10:40:04.989 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:04.989 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:04.989 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:05.073 5191-5191/com.android.documentsui D/PickerActionHandler: onFinished() [content://com.android.externalstorage.documents/document/primary%3ADCIM%2FIMG_20220228_172325.jpg]
+2022-03-03 10:40:05.078 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'screenshot'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x333, consumer_usage : 0x333, internal_format : 0x0, stride : 800, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x1, size : 4096000, layer_count : 1, backing_store_size : 4096000, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:05.078 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:05.078 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:05.291 181-965/? E/BufferQueueProducer: [VolumeDialogImpl#0](id:b50000001e,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:40:05.292 597-1042/com.android.systemui W/libEGL: EGLNativeWindowType 0xb4000077a79d98e0 disconnect failed
+2022-03-03 10:40:05.478 5102-5102/com.example.facedemo I/loadimg: path=/storage/emulated/0/DCIM/IMG_20220228_172325.jpg
+2022-03-03 10:40:05.479 5102-5102/com.example.facedemo V/getScaledBitmap: 1==
+2022-03-03 10:40:05.479 5102-5102/com.example.facedemo V/getScaledBitmap: path=/storage/emulated/0/DCIM/IMG_20220228_172325.jpg, 期望：vMinWidth=400
+2022-03-03 10:40:05.482 5102-5102/com.example.facedemo V/getScaledBitmap: 原图大小：width:4224,height:5632,path=/storage/emulated/0/DCIM/IMG_20220228_172325.jpg
+2022-03-03 10:40:05.889 5102-5102/com.example.facedemo V/getScaledBitmap: 处理后, size, width=400,height=534
+2022-03-03 10:40:05.889 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 1 
+2022-03-03 10:40:05.890 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 2
+2022-03-03 10:40:05.890 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 4通道转3通道 ok
+2022-03-03 10:40:05.892 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 灰度化ok
+2022-03-03 10:40:05.990 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:05.990 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:05.990 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:06.102 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 检测耗时:213毫秒
+2022-03-03 10:40:06.102 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 人脸数:1
+2022-03-03 10:40:06.192 5102-5102/com.example.facedemo I/libSeetafaceSo: 旋转角=1.591187
+2022-03-03 10:40:06.192 5102-5102/com.example.facedemo I/libSeetafaceSo: 偏航角=12.956766
+2022-03-03 10:40:06.192 5102-5102/com.example.facedemo I/libSeetafaceSo: 俯仰角=-16.842817
+2022-03-03 10:40:06.719 450-519/? I/InputDispatcher: Dropping event because there is no touchable window or gesture monitor at (382, 273) in display 0.
+2022-03-03 10:40:06.730 450-519/? I/InputDispatcher: Dropping event because there is no touched foreground window in display 0 or gesture monitor to receive it.
+2022-03-03 10:40:06.835 450-519/? I/chatty: uid=1000(system) InputDispatcher identical 10 lines
+2022-03-03 10:40:06.845 450-519/? I/InputDispatcher: Dropping event because there is no touched foreground window in display 0 or gesture monitor to receive it.
+2022-03-03 10:40:06.960 253-327/? D/AudioHardwareTiny: do_out_standby,out = 0xe88c04c0,device = 0x2
+2022-03-03 10:40:06.965 253-327/? D/alsa_route: route_set_controls() set route 24
+2022-03-03 10:40:06.974 253-327/? D/AudioHardwareTiny: close device
+2022-03-03 10:40:06.975 450-773/? I/system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+2022-03-03 10:40:06.991 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:06.991 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:06.992 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:07.109 5102-5102/com.example.facedemo I/libSeetafaceSo: 提取特征耗时:917毫秒
+2022-03-03 10:40:07.110 5102-5102/com.example.facedemo D/libSeetafaceSo: DetectFaces, 总耗时:1221毫秒
+2022-03-03 10:40:07.110 5102-5102/com.example.facedemo I/detectAndCompareFace: face_num=1
+2022-03-03 10:40:07.110 5102-5102/com.example.facedemo I/detectAndCompareFace: roll,pitch,yaw=1.5911872, -16.842817,12.956766
+2022-03-03 10:40:07.110 5102-5102/com.example.facedemo I/detectAndCompareFace: seetaFaces0, pos:121, 325, 130, 334, 
+2022-03-03 10:40:07.112 5102-5102/com.example.facedemo I/loadimg: drawRect,i=0, 121,325,130,334
+2022-03-03 10:40:07.113 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity tFeat1 ok
+2022-03-03 10:40:07.113 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity tFeat2 ok
+2022-03-03 10:40:07.113 5102-5102/com.example.facedemo D/libSeetafaceSo: CalcSimilarity, tSim=0.8600, time=0
+2022-03-03 10:40:07.122 5102-5102/com.example.facedemo I/Choreographer: Skipped 119 frames!  The application may be doing too much work on its main thread.
+2022-03-03 10:40:07.143 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:07.143 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:07.143 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:07.146 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f86010 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:07.146 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:07.146 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:07.148 223-227/? D/gralloc4: [File] : hardware/rockchip/libgralloc/bifrost/src/hidl_common/Allocator.cpp; [Line] : 147; [Func] : allocate;
+    got new private_handle_t instance @0xb400007e26f89a90 for buffer 'com.example.facedemo/com.example.facedemo.MainActivity#0'. share_fd : 8, share_attr_fd : 9, flags : 0x4, width : 800, height : 1280, req_format : 0x1, producer_usage : 0x40000000000b00, consumer_usage : 0x40000000000b00, internal_format : 0x0, stride : 0, byte_stride : 0, internalWidth : 0, internalHeight : 0, alloc_format : 0x100000001, size : 4160512, layer_count : 1, backing_store_size : 4160512, allocating_pid : 223, ref_count : 1, yuv_info : 0
+2022-03-03 10:40:07.148 223-227/? D/gralloc4: plane_info[0]: offset : 0, byte_stride : 3200, alloc_width : 800, alloc_height : 1280
+2022-03-03 10:40:07.148 223-227/? D/gralloc4: plane_info[1]: offset : 0, byte_stride : 0, alloc_width : 0, alloc_height : 0
+2022-03-03 10:40:07.162 5102-5136/com.example.facedemo I/OpenGLRenderer: Davey! duration=2025ms; Flags=1, IntendedVsync=3325207007093, Vsync=3327190340347, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3327193450790, AnimationStart=3327193453707, PerformTraversalsStart=3327193455749, DrawStart=3327214255376, SyncQueued=3327221685002, SyncStart=3327222072043, IssueDrawCommandsStart=3327225678210, SwapBuffers=3327232148544, FrameCompleted=3327233272919, DequeueBufferDuration=260458, QueueBufferDuration=529667, GpuCompleted=2378488203509, 
+2022-03-03 10:40:07.189 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:07.190 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:07.407 450-1134/? E/TaskPersister: File error accessing recents directory (directory doesn't exist?).
+2022-03-03 10:40:07.412 181-446/? E/BufferQueueProducer: [com.android.documentsui/com.android.documentsui.picker.PickActivity#0](id:b50000001f,api:0,p:-1,c:181) disconnect: not connected (req=1)
+2022-03-03 10:40:07.412 5191-5231/com.android.documentsui W/libEGL: EGLNativeWindowType 0xb4000077a78bc480 disconnect failed
+2022-03-03 10:40:07.992 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:07.993 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:07.994 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:08.995 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:08.996 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:08.996 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:09.080 1210-1707/com.ludashi.benchmark I/Zeus/receiver: ZeusTransformUtils-registerReceiver-execute
+2022-03-03 10:40:09.081 1210-1707/com.ludashi.benchmark I/Zeus/receiver: ZeusTransformUtils-registerReceiver-execute
+2022-03-03 10:40:09.997 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:09.998 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:10.000 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:10.192 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:10.192 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:11.000 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:11.001 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:11.002 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:12.003 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:12.004 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:12.005 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:13.006 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:13.007 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:13.008 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:13.197 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:13.197 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:14.008 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:14.009 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:14.011 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:15.011 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:15.012 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:15.013 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:16.014 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:16.015 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:16.016 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:16.202 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:16.202 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:17.016 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:17.017 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:17.018 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:18.019 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:18.020 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:18.021 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:19.021 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:19.022 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:19.025 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:19.207 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:19.207 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:20.025 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:20.026 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:20.027 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:21.029 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:21.030 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:21.031 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:22.033 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:22.034 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:22.035 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:22.212 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:22.212 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:23.037 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:23.038 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:23.039 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:24.040 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:24.040 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:24.042 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:25.044 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:25.045 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:25.046 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:25.217 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:25.217 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:26.046 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:26.047 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:26.048 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:27.049 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:27.049 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:27.052 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:28.053 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:28.053 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:28.054 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:28.222 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:28.222 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:29.055 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:29.056 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:29.057 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:30.057 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:30.058 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:30.061 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:31.061 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:31.062 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:31.065 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:31.227 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:31.227 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:32.065 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:32.066 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:32.069 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:33.069 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:33.070 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:33.071 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:34.073 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:34.074 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:34.075 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:34.232 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:34.232 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:35.075 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:35.076 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:35.077 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:36.078 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:36.079 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:36.080 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:37.081 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:37.081 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:37.083 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:37.237 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:37.237 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:38.084 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:38.084 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:38.087 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:39.089 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:39.090 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:39.091 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:40.092 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:40.093 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:40.094 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:40.242 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:40.242 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:41.094 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:41.095 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:41.098 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:42.098 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:42.099 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:42.100 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:43.101 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:43.102 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:43.103 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:43.247 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:43.247 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:44.103 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:44.104 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:44.105 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:45.106 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:45.106 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:45.107 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:46.108 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:46.109 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:46.112 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:46.252 396-409/? E/RIL RILU: cannot find ttyname for AT Port
+2022-03-03 10:40:46.252 396-409/? D/RIL RILC: USB can't find at device
+2022-03-03 10:40:47.113 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:47.113 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:47.114 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:48.115 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:48.116 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:48.117 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:47.120 0-0/? I/chatty: uid=0(root) logd identical 58 lines
+2022-03-03 10:40:48.125 0-0/? I/init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+2022-03-03 10:40:48.264 0-0/? W/healthd: battery l=50 v=3 t=2.6 h=2 st=3 fc=100 chg=au
+2022-03-03 10:40:49.117 827-827/? W/HidlServiceManagement: Waited one second for android.hardware.radio@1.1::IRadio/slot1
+2022-03-03 10:40:49.118 156-156/? I/hwservicemanager: Since android.hardware.radio@1.1::IRadio/slot1 is not registered, trying to start it as a lazy HAL.
+2022-03-03 10:40:49.119 827-827/? I/HidlServiceManagement: getService: Trying again for android.hardware.radio@1.1::IRadio/slot1...
+2022-03-03 10:40:49.126 0-0/? I/init: Control message: Processed ctl.interface_start for 'android.hardware.radio@1.1::IRadio/slot1' from pid: 156 (/system/bin/hwservicemanager)
+2022-03-03 10:40:49.257 396-409/? E/RIL RILU: cannot find ttyname for AT Port
