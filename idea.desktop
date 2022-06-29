@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=idea
+Exec=/home/foxconn/3rdParty/idea-IU-212.5712.43/bin/idea.sh
+Comment=idea
+Icon=/home/foxconn/3rdParty/idea-IU-212.5712.43/bin/idea.png
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Categories=Developer;
